@@ -1,0 +1,389 @@
+@font-face {
+    font-family: Bernard MT condested;
+    src: url(fonts/BERNHC.TTF);
+}
+
+@font-face {
+    font-family: PublicSans-Bold;
+    src: url(fonts/PublicSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: calibril;
+    src: url(fonts/calibril.ttf);
+}
+
+
+/* Navbar */
+.navbar {
+    min-height: 8rem;
+    background: black;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        clip-path: polygon(0% -250%, 0% 100%, 30% 100%);
+    }
+}
+
+.navbar-brand img {
+    height: 80px;
+}
+
+.nav-link {
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+        color: #26b5a3;
+    }
+}
+
+.nav-item {
+    padding: 0 1rem;
+}
+
+.nav-link i {
+    color: #26b5a3;
+    font-size: 32px;
+    padding: 0 1rem;
+}
+
+.navbar-header {
+    position: relative;
+}
+
+.navbar-nav {
+    position: relative;
+}
+
+
+/* Media Query for Navbar */
+@media screen and (max-width:426px) {
+    .navbar-brand img {
+        height: 40px;
+    }
+
+    .navbar {
+        min-height: 4rem;
+        background: #fff;
+    }
+
+    .nav-link {
+        color: #000;
+        font-size: 14px;
+    }
+
+    .nav-link i {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+    .navbar-brand img {
+        height: 50px;
+    }
+
+    .navbar {
+        min-height: 4rem;
+        background: #fff;
+    }
+
+    .nav-link {
+        color: #000;
+        font-size: 16px;
+    }
+
+    .nav-link i {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px) {
+    .navbar-brand img {
+        height: 50px;
+    }
+
+    .navbar {
+        min-height: 4rem;
+        background: #fff;
+    }
+
+    .nav-link {
+        color: #000;
+        font-size: 16px;
+    }
+
+    .nav-link i {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (min-width: 991px) and (max-width:1500px) {
+    .navbar-brand img {
+        height: 55px;
+    }
+
+    .nav-link {
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: 16px;
+        padding: 0;
+    }
+
+    .nav-item {
+        padding: 0;
+    }
+
+    .address {
+        margin-left: 5rem;
+    }
+}
+
+@media only screen and (min-width: 1500px) and (max-width:1754px) {
+    .nav-link {
+        font-size: 16px;
+    }
+}
+
+/* End Navbar */
+
+
+/* Section */
+section {
+    height: 85vh;
+    width: 100%;
+    background: url(../images/vastreach.png);
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(38, 181, 163, 60%);
+        clip-path: polygon(0% -63%, 0% 100%, 78% 100%);
+    }
+
+    & .content {
+        position: relative;
+        max-width: 60%;
+        padding-left: 2rem;
+    }
+
+    & .content .white-text {
+        color: #fff;
+    }
+
+    & .content h1 {
+        font-size: 50px;
+    }
+
+}
+
+/* End Section */
+
+
+/* Industry Section */
+.industry-section {
+
+    padding-bottom: 3rem;
+
+    & h1 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 32px;
+        font-weight: 700;
+        padding: 4rem 0;
+    }
+
+    & .col-item {
+        text-align: center;
+        padding: 1rem;
+    }
+
+    & .col-item h5 {
+        padding-top: 1rem;
+    }
+}
+
+/* Media Query of Industry Section */
+@media screen and (max-width:469px) {
+
+    .industry-section {
+        & h1 {
+            font-size: 22px;
+            padding: 3rem 0 1rem;
+        }
+
+        & .col-item {
+            width: 50%;
+            padding: 1rem;
+        }
+
+        & .col-item img {
+            height: 6rem;
+        }
+
+        & .col-item h5 {
+            font-size: 16px;
+        }
+    }
+
+}
+
+@media screen and (min-width:469px) and (max-width:768px) {
+
+    .industry-section {
+
+        & h1 {
+            font-size: 28px;
+        }
+
+        & .col-item {
+            width: 33.3%;
+
+        }
+
+        & .col-item img {
+            height: 7rem;
+        }
+
+        & .col-item h5 {
+            font-size: 18px;
+        }
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+    .industry-section {
+        & .col-item {
+            width: 25%;
+            padding-bottom: 1rem;
+        }
+
+        & .col-item h5 {
+            font-size: 18px;
+        }
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+
+    .industry-section {
+        & .col-item {
+            width: 20%;
+        }
+    }
+}
+
+/* End Industry Section */
+
+
+/* footer section */
+.footer-section {
+    border-top: 1rem solid #000;
+    padding: 6rem;
+
+    & .col-item-1 {
+        padding-right: 8rem;
+    }
+
+    & p {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    & input {
+        background: grey;
+        border: none;
+        outline: none;
+        padding: .5rem .8rem;
+        width: 100%;
+    }
+
+    & input::placeholder {
+        color: rgb(185, 184, 184);
+        font-weight: 500;
+    }
+
+    & .col-item .head {
+        margin-bottom: 1rem;
+    }
+
+    & .col-item-3 p {
+        color: grey;
+        font-weight: 400;
+    }
+
+    & .col-item-2 h1 {
+        border-bottom: 3px solid #26b5a3;
+        width: 70%;
+    }
+
+}
+
+/* Media Query of footer section */
+@media screen and (max-width:768px) {
+    .footer-section {
+
+        padding: 1rem;
+
+        & .col-item {
+            padding: 1rem;
+        }
+
+        & .col-item-1 {
+            padding-right: 0;
+        }
+
+        & p {
+            font-size: 16px;
+        }
+    }
+}
+
+/* End footer section */
+
+/* Copyright */
+.copyright {
+    background-color: black;
+    color: white;
+    padding: 3px 3px;
+    position: absolute;
+    border-top: 3px solid rgb(38, 181, 163);
+    width: 100%;
+}
+
+.copyright-text {
+    margin: 10px;
+    padding-left: 75px;
+}
+
+@media only screen and (max-width:426px) {
+    .copyright-text {
+        padding: 0;
+        font-size: 12px;
+    }
+}
