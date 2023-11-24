@@ -1,0 +1,33 @@
+body{
+    background-image: url(/images/space2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+img{
+    margin: auto;
+    display: block;
+    padding-top: 30px;
+    width: 200px;
+    height: 80px;
+}
+.heading{
+    display:flex;
+    color: blueviolet;
+    width: 300px;
+    margin: auto;
+
+}
+.second{
+    margin-left: 10px;
+    border-bottom: 3px solid white;
+}
+button{
+    display: block;
+    margin: auto;
+    background-color: white;
+    color: blue;
+    border: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
