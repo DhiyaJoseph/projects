@@ -1,0 +1,246 @@
+body{
+    margin: 0px;
+}
+.one{
+    background-color: rgb(255,223,146);
+    height: 700px;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    padding-left:170px;
+    padding-top: 60px;
+}
+.acco{
+    width: 20px;
+    height: 20px;
+    padding-top: 10px;
+}
+.start{
+    font-family: 'Merriweather', serif;
+    color: rgb(66,47,1);
+    font-size: 16px;
+}
+.head2{
+    font-family: 'Merriweather', serif;
+    color: rgb(66,47,1);
+    font-size: 68px;
+    width: 550px;
+    padding-left:170px;
+    padding-top: 30px;
+}
+.but1{
+    background-color: rgb(66,47,1);
+    color: white;
+    padding:15px 25px;
+    border-radius: 100px;
+    font-size: 15px;
+    margin-left: 170px;
+}
+.two{
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+    padding-left: 190px;
+    background-color: rgb(255,233,180);
+    color:  rgb(66,47,1);
+  
+}
+.head3{
+    width: 300px;
+    font-size: 40px;
+    padding-top: 150px;
+    text-align: left;
+    font-family: 'Merriweather', serif;
+   
+}
+.pic{
+    padding-right: 90px;
+    width: 500px;
+    height: 600px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.para1{
+    padding-top: 30px;
+    width: 430px;
+    text-align: left;
+    font-size: 20px;
+}
+.service{
+    margin: auto;
+    width: 300px;
+    padding-top: 100px;
+    font-size: 40px;
+    color:  rgb(66,47,1);
+}
+.three{
+    background-color: rgb(255,223,146);
+    height: 600px;
+    margin-top: 0px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 800px;
+    padding-top:100px ;
+}
+.pic1{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+
+}
+.free{
+    font-size: 20px;
+}
+.prof{
+    font-size: 20px;
+}
+.bus{
+    font-size: 20px;
+}
+.bel1{
+    width: 200px;
+    padding-bottom: 1px;
+}
+.pic2{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+
+}
+.bel2{
+    width: 220px;
+    margin-bottom: 0px;
+}
+.pic3{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.bel3{
+    width: 200px;
+    margin-bottom: 0px;
+}
+.logo1{
+    margin: auto;
+    width: 200px;
+    text-align: center;
+}
+.logo2{
+    margin: auto;
+    width: 200px;
+    text-align: center;
+}
+.logo3{
+    margin: auto;
+    width: 200px;
+    text-align: center;
+}
+.four{
+    background-color: rgb(255,233,180);
+    color:rgb(66,47,1);
+    height: 700px;
+
+}
+.testi{
+    width: 300px;
+    margin:auto;
+    padding-top: 100px;
+    font-size: 50px;
+    color:rgb(66,47,1);
+}
+.people{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+}
+.img1{
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+}
+.img2{
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+}
+.img3{
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+}
+.people1{
+    text-align: center;
+}
+.people2{
+    text-align: center;
+}
+.people3{
+
+    text-align: center;
+}
+.mela, .finn, .olowe{
+    width: 170px;
+    font-size: 20px;
+    text-align: center;
+     
+}
+.melapara, .finnpara, .olowpara{
+    width: 200px;
+    text-align: center;
+}
+.five{
+    padding-top: 0px;
+    height: 500px;
+}
+.photo{
+    width: 1225px;
+    height: 500px;
+    padding-top: 0px;
+}
+.six{
+    background-color: rgb(255,233,180);
+    color: rgb(66,47,1);
+    padding-top: 10px;
+    height: 300px;
+    
+}
+.last{
+   width:300px;
+   margin-left: 160px;
+   font-size: 50px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+.add{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.email{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.num{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.mailing{
+font-size: 15px;
+margin-top: 0px;
+}
+.number{
+    font-size: 15px;
+    margin-top: 0px;
+}
+.id{
+    font-size: 15px;
+    margin-top: 0px;
+}
